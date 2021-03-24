@@ -1,5 +1,4 @@
-body,
-html {
+body, html {
   margin: 0;
   padding: 0;
 }
@@ -28,6 +27,10 @@ html {
   grid-template-columns: auto auto auto;
 }
 
+.col-auto-6x {
+  grid-template-columns: auto auto auto auto auto auto;
+}
+
 .header-item {
   height: 48px;
 }
@@ -38,6 +41,10 @@ html {
 
 .flex-wrap {
   flex-wrap: wrap;
+}
+
+.flex-no-wrap {
+  flex-wrap: nowrap;
 }
 
 .width100 {
@@ -54,6 +61,10 @@ html {
 
 .justify-end {
   justify-content: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .flex-align-center {
@@ -158,4 +169,32 @@ img {
 iframe {
   width: 100%;
   height: 315px;
+}
+
+.display-top {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #fff;
+}
+
+.display-bottom {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-color: #fff;
+}
+
+.float-right {
+  float: right;
+  display: inline;
+  top: 50%;
+}
+
+.clearance {
+  margin-top: 86px;
+}
+
+aside {
+  width: 200px;
 }
