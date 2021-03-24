@@ -1,6 +1,7 @@
-body, html {
-  margin: 0px;
-  padding: 0px;
+body,
+html {
+  margin: 0;
+  padding: 0;
 }
 
 .grid {
@@ -61,8 +62,8 @@ body, html {
 
 .btn {
   background-color: #567b95;
-  margin: 0px 8px;
-  border: 0px;
+  margin: 0 8px;
+  border: 0;
   padding: 8px;
   color: #ffffff;
 }
@@ -82,7 +83,7 @@ body, html {
 }
 
 .margin-y-16 {
-  margin: 16px 0px;
+  margin: 16px 0;
 }
 
 .text-center {
@@ -133,8 +134,8 @@ body, html {
 }
 
 ul {
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
 }
 
 li {
@@ -142,12 +143,12 @@ li {
 }
 
 .container {
-  max-width: 900px;
-  margin: 0px auto;
+  max-width: 900;
+  margin: 0 auto;
 }
 
 .text-content {
-  padding: 0px 164px 0px 164px;
+  padding: 0 164px 0 164px;
 }
 
 img {
