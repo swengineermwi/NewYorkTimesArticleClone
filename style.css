@@ -8,6 +8,10 @@ html {
   display: grid;
 }
 
+/* .grid-gap{
+  grid-col
+} */
+
 .flex-dir-row {
   flex-direction: row;
 }
@@ -64,6 +68,10 @@ html {
   justify-content: flex-end;
 }
 
+.justify-start {
+  justify-content: flex-start;
+}
+
 .justify-center {
   justify-content: center;
 }
@@ -74,7 +82,6 @@ html {
 
 .btn {
   background-color: #567b95;
-  margin: 0 8px;
   border: 0;
   padding: 8px;
   color: #fff;
@@ -150,7 +157,6 @@ li {
 
 .logo {
   width: 195px;
-  margin: auto;
 }
 
 ul {
