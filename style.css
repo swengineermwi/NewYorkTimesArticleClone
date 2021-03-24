@@ -1,4 +1,5 @@
-body, html {
+body, 
+html {
   margin: 0;
   padding: 0;
 }
@@ -203,6 +204,6 @@ aside {
   width: 200px;
 }
 
-.fs-small{
+.fs-small {
   font-size: 12px;
 }
