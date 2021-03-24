@@ -1,5 +1,4 @@
-body,
-html {
+body, html {
   margin: 0;
   padding: 0;
 }
@@ -96,6 +95,10 @@ html {
 
 .margin-y-16 {
   margin: 16px 0;
+}
+
+.margin-bottom {
+  margin-bottom: 48px;
 }
 
 .text-center {
@@ -198,4 +201,8 @@ iframe {
 
 aside {
   width: 200px;
+}
+
+.fs-small{
+  font-size: 12px;
 }
