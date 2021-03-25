@@ -5,12 +5,20 @@ html {
   font-family: helvetica, arial, sans-serif;
 }
 
+body {
+  color: #333;
+}
+
 .grid {
   display: grid;
 }
 
 .grid-gap {
   column-gap: 16px;
+}
+
+.color-default {
+  color: #326891
 }
 
 .grid-row-gap {
@@ -75,10 +83,6 @@ html {
   width: 100%;
 }
 
-.width-20 {
-  width: 30%;
-}
-
 .justify-space-around {
   justify-content: space-around;
 }
@@ -128,6 +132,22 @@ html {
   padding: 50px 0;
 }
 
+.margin-y-md {
+  margin: 16px 0;
+}
+
+.padding-bottom-md {
+  padding-bottom: 16px;
+}
+
+.padding-bottom-lg {
+  padding-bottom: 32px;
+}
+
+.margin-bottom-md {
+  margin-bottom: 16px;
+}
+
 .margin-bottom {
   margin-bottom: 48px;
 }
@@ -154,6 +174,24 @@ li {
   border-radius: 50%;
 }
 
+.editor-picks img {
+  width: 80px;
+}
+
+.editor-picks span {
+  padding-left: 7px;
+}
+
+.editor-picks li {
+  padding-top: 7px;
+}
+
+.blah {
+  background: #ccc;
+  padding: 9px;
+  border-radius: 50%;
+}
+
 .text-end {
   text-align: right;
 }
@@ -171,9 +209,11 @@ li {
 }
 
 .most-popular li {
-  padding: 24px 0;
-  border-top: 1px solid #000;
-  border-bottom: 1px solid;
+  font-family: georgia, "times new roman", times, serif;
+  color: #000;
+  padding: 16px 0;
+  border-top: 1px solid rgb(226, 226, 226);
+  border-bottom: 1px solid rgb(226, 226, 226);
 }
 
 .fs-2 {
@@ -241,6 +281,15 @@ aside {
   width: 200px;
 }
 
+.h60 {
+  height: 90px;
+}
+
+.editor-img {
+  width: 50px;
+  height: 50px;
+}
+
 .fs-small {
   font-size: 12px;
 }
@@ -254,47 +303,29 @@ aside {
 }
 
 .bg-img {
-  height: 100px;
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
+  height: 150px;
 }
 
-.img-1 {
-  background-image: url(assets/1.png);
+a {
+  text-decoration: none;
 }
 
-.img-2 {
-  background-image: url(assets/2.png);
-}
-
-.img-3 {
-  background-image: url(assets/3.png);
-}
-
-.img-4 {
-  background-image: url(assets/4.png);
-}
-
-.img-5 {
-  background-image: url(assets/5.png);
-}
-
-.img-6 {
-  background-image: url(assets/6.png);
-}
-
-.img-7 {
-  background-image: url(assets/7.png);
-}
-
-.img-8 {
-  background-image: url(assets/8.png);
+.small-links {
+  color: #666;
+  border-top: 1px solid #ebebeb;
+  padding: 16px 0;
+  margin-top: 8px;
 }
 
 footer .grid a {
   text-decoration: none;
   font-size: 14px;
+  color: #000;
+  line-height: 16px;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
 
 footer h3 {
@@ -304,4 +335,73 @@ footer h3 {
 .special {
   border-left: 1px solid #ccc;
   padding: 0 0 0 16px;
+}
+
+.fs-logo {
+  color: #000;
+  font-size: 14.25px;
+}
+
+.caption,
+#caption {
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  margin-left: 7px;
+  color: #666;
+}
+
+.text-content p {
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+
+.date {
+  font-size: 0.8125rem;
+}
+
+.break p {
+  line-height: 10px;
+}
+
+.text-heading {
+  font-size: 1.25rem;
+}
+
+.theory-sect p {
+  font-size: .875rem;
+  color: #666;
+}
+
+.theory-sect p span {
+  font-size: 11px;
+  font-weight: bold;
+  color: #000;
+}
+
+#credit {
+  font-size: .875rem;
+  color: #000;
+}
+
+.width-20 {
+  width: 90px;
+}
+
+.card {
+  padding: 8px;
+  border: 1px solid #000;
+}
+
+#small-link-footer li a {
+  color: #666;
+  font-size: 11px;
+  line-height: 21px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.more-sect p {
+  font-family: georgia, "times new roman", times, serif;
 }

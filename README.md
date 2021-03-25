@@ -19,12 +19,24 @@ The page is recreated using the position, float, box mode and flexbox features o
 
 ## Getting Started
 
-- visit (https://mwila-kaunda.github.io/NewYorkTimesArticleClone/)
+To get a local copy up and running follow these simple example steps.
 
+### Prerequisites
+
+- You must have git installed
+
+### Install
+
+- Clone the git repository
+
+### Usage
+
+- Open HTML index file from localhost
 
 ## Author
 
 - GitHub: [@Mwila-Kaunda](https://github.com/Mwila-Kaunda)
+- Twitter: [@MwilaKaunda](https://twitter.com/MwilaKaunda)
 
 ## 🤝 Contributing
 
@@ -35,3 +47,9 @@ Feel free to check the [issues page](https://github.com/Mwila-Kaunda/NewYorkTime
 ## Show your support
 
 Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- The Odin Project
+- Microverse
+- W3Schools
