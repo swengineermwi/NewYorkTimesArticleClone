@@ -174,10 +174,6 @@ li {
   border-radius: 50%;
 }
 
-.editor-picks img {
-  width: 80px;
-}
-
 .editor-picks span {
   padding-left: 7px;
 }
@@ -404,4 +400,8 @@ footer h3 {
 
 .more-sect p {
   font-family: georgia, "times new roman", times, serif;
+}
+
+.editor-picks img {
+  width: 80px;
 }
