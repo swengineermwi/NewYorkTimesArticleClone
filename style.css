@@ -2,15 +2,20 @@ body,
 html {
   margin: 0;
   padding: 0;
+  font-family: helvetica, arial, sans-serif;
 }
 
 .grid {
   display: grid;
 }
 
-/* .grid-gap{
-  grid-col
-} */
+.grid-gap{
+  column-gap: 16px;
+}
+
+.grid-row-gap{
+  row-gap: 16px;
+}
 
 .flex-dir-row {
   flex-direction: row;
@@ -32,12 +37,21 @@ html {
   grid-template-columns: auto auto auto;
 }
 
+.col-auto-4x {
+  grid-template-columns: auto auto auto auto;
+}
+
 .col-auto-6x {
   grid-template-columns: auto auto auto auto auto auto;
 }
 
 .header-item {
   height: 48px;
+  display: block;
+}
+
+.card-item {
+  height: 100px;
 }
 
 .flex-container {
@@ -50,6 +64,11 @@ html {
 
 .flex-no-wrap {
   flex-wrap: nowrap;
+}
+
+.icon {
+  width: 16px;
+  margin-right: 16px;
 }
 
 .width100 {
@@ -95,6 +114,10 @@ html {
   margin: auto;
 }
 
+.border-top {
+  border-top: 1px solid #000;
+}
+
 .mid-line {
   display: block;
   width: 10%;
@@ -102,7 +125,7 @@ html {
 }
 
 .margin-y-16 {
-  margin: 16px 0;
+  padding: 50px 0;
 }
 
 .margin-bottom {
@@ -165,6 +188,10 @@ ul {
 }
 
 .container {
+  padding: 0 32px;
+}
+
+.content {
   max-width: 900px;
   margin: 0 auto;
 }
@@ -198,8 +225,6 @@ iframe {
 
 .float-right {
   float: right;
-  display: inline;
-  top: 50%;
 }
 
 .clearance {
@@ -212,4 +237,65 @@ aside {
 
 .fs-small {
   font-size: 12px;
+}
+
+.display-relative {
+  position: relative;
+}
+
+.display-abs {
+  position: inherit;
+}
+
+.bg-img {
+  height: 100px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.img-1 {
+  background-image: url(assets/1.png);
+}
+
+.img-2 {
+  background-image: url(assets/2.png);
+}
+
+.img-3 {
+  background-image: url(assets/3.png);
+}
+
+.img-4 {
+  background-image: url(assets/4.png);
+}
+
+.img-5 {
+  background-image: url(assets/5.png);
+}
+
+.img-6 {
+  background-image: url(assets/6.png);
+}
+
+.img-7 {
+  background-image: url(assets/7.png);
+}
+
+.img-8 {
+  background-image: url(assets/8.png);
+}
+
+footer .grid a {
+  text-decoration: none;
+  font-size: 14px;
+}
+
+footer h3 {
+  line-height: 0;
+}
+
+.special {
+  border-left: 1px solid #ccc;
+  padding: 0 0 0 16px;
 }
