@@ -1,5 +1,4 @@
-body,
-html {
+body, html {
   margin: 0;
   padding: 0;
   font-family: helvetica, arial, sans-serif;
@@ -144,8 +143,14 @@ li {
   margin: 16px 0;
 }
 
-.social li {
+.social li{
   margin-right: 16px;
+}
+
+.social i {
+  background: #ccc;
+  padding: 9px;
+  border-radius: 50%;
 }
 
 .text-end {
