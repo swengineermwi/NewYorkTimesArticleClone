@@ -407,7 +407,8 @@ footer h3 {
 }
 
 form input,
-form textarea {
+form textarea,
+form select {
   padding: 16px;
   border: 0;
   border-bottom: 2px solid #666;
