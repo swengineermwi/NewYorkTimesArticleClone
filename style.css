@@ -406,10 +406,6 @@ footer h3 {
   width: 80px;
 }
 
-form div:first {
-  display: flex;
-}
-
 form input,
 form textarea {
   padding: 16px;
