@@ -405,3 +405,11 @@ footer h3 {
 .editor-picks img {
   width: 80px;
 }
+
+form input,
+form textarea,
+form select {
+  padding: 16px;
+  border: 0;
+  border-bottom: 2px solid #666;
+}

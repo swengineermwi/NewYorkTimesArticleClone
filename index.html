@@ -490,13 +490,57 @@
                 href="">Today’s Paper</a> | <a href="">Subscribe</a>
             </small>
 
+            <fieldset class="margin-y-md">
+              <legend>Leave a comment</legend>
+
+              <form action="./" class="margin-y-md">
+                <div class="flex-container">
+                  <label>Name</label>
+                  <input class="width100 margin-y-md" type="text" placeholder="Name" required>
+                </div>
+
+                <div class="flex-container">
+                  <label>E-mail</label>
+                  <input class="width100 margin-y-md" type="email" placeholder="Email address" required>
+                </div>
+
+                <div class="flex-container">
+                  <label>Comment</label>
+                  <textarea class="width100 margin-y-md" placeholder="Type your comment here" id="comment"
+                    cols="60" rows="10"></textarea>
+                </div>
+
+                <div>
+                  <div>
+                    <label>What is your overall opinion about this article</label>
+                  </div>
+                  <div>
+                    <select class="width100">
+                      <option value="1">Positive</option>
+                      <option value="2">Neutral</option>
+                      <option value="3">Negative</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div>
+                  <label for="news">I want to subscribe to the newsletter</label>
+                  <input type="radio" id="news" name="gender" value="other">
+                </div>
+
+                <div>
+                  <button type="submit" class="btn width100">Send</button>
+                </div>
+              </form>
+            </fieldset>
+
             <div class="grid col-50x50">
               <div class="flex-container flex-align-center">
-                <button class="btn width100">READ 615 COMMENTS</button>
+                <button type="button" class="btn width100">READ 615 COMMENTS</button>
               </div>
 
               <div>
-                <ul class="flex-container justify-center social">
+                <ul class="flex-container justify-end social">
                   <li>
                     <i class="fa fa-facebook"></i>
                   </li>
