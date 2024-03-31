@@ -14,7 +14,7 @@ The page is recreated using the position, float, box mode and flexbox features o
 
 ## Live Demo
 
-[Live Demo Link](https://mwila-kaunda.github.io/NewYorkTimesArticleClone/)
+[Live Demo Link](https://swengineermwi.github.io/NewYorkTimesArticleClone/)
 
 
 ## Getting Started
